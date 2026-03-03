@@ -46,9 +46,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Farmer122/Threshold_Ridge"
-Repository = "https://github.com/Farmer122/Threshold_Ridge"
-Issues = "https://github.com/Farmer122/Threshold_Ridge/issues"
+Homepage = "https://github.com/Farmer122/Threshold-Ridge"
+Repository = "https://github.com/Farmer122/Threshold-Ridge"
+Issues = "https://github.com/Farmer122/Threshold-Ridge/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

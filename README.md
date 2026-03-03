@@ -29,7 +29,7 @@ pip install threshold-ridge
 Install the development version from GitHub:
 
 ```bash
-pip install git+https://github.com/Farmer122/Threshold_Ridge.git
+pip install git+https://github.com/Farmer122/Threshold-Ridge.git
 ```
 
 ---
@@ -100,7 +100,7 @@ ThresholdedRidge(
 ## Development
 
 ```bash
-git clone https://github.com/Farmer122/Threshold_Ridge.git
+git clone https://github.com/Farmer122/Threshold-Ridge.git
 cd threshold-ridge
 pip install -e ".[dev]"
 pytest tests/ -v
