@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "threshold-ridge"
+version = "0.1.0"
+description = "Scikit-learn compatible Thresholded Ridge regression for high-dimensional variable selection"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Jamal Lawal"}
+]
+keywords = [
+    "machine learning",
+    "variable selection",
+    "ridge regression",
+    "high-dimensional statistics",
+    "sparse regression",
+    "econometrics",
+    "lasso",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "numpy>=1.23",
+    "scikit-learn>=1.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov",
+    "build",
+    "twine",
+]
+
+[project.urls]
+Homepage = "https://github.com/Farmer122/Threshold_Ridge"
+Repository = "https://github.com/Farmer122/Threshold_Ridge"
+Issues = "https://github.com/Farmer122/Threshold_Ridge/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
